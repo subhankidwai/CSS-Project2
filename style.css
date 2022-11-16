@@ -38,6 +38,10 @@
     border-radius: 10px;
 }
 
+.flex:hover{
+    box-shadow: 2px 2px 4px grey;
+}
+
 p{
     color: #00A5EC;
     padding-bottom: 12px;
@@ -100,7 +104,7 @@ button {
 
 .fa-xmark {
     position: absolute;
-    left: 430px;
+    left: 410px;
 }
 
 .input {
@@ -243,5 +247,10 @@ a{
     .back{
         left: -29%;
         font-size: 22px;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        left: 290px;
     }
 }
