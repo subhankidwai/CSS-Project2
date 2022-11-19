@@ -168,7 +168,7 @@ a{
 }
 
 
-@media (min-width: 360px) and (max-width: 420px) {
+@media (min-width: 360px) and (max-width: 600px) {
     .div1{
         font-size: 30px;
         font-weight: bolder;
@@ -195,22 +195,24 @@ a{
         padding: 13px 0;
         display: flex;
         flex-wrap: wrap;
-        margin-left: -8px;
-        margin-right: -8px;
+        justify-content: center;
     }
     .flex{
         width: 260px;
     }
 
     .pop-up{
-        margin-top: 352px;
+        margin-top: 310px;
     }
     .Add-New-Task {
         width: 322px;
         height: 233px;
         padding: 20px 0px 0px 15px;
-        bottom: 318px;
-        left: 10px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
     }
     button {
         left: 150px;
@@ -233,24 +235,37 @@ a{
         width: 295px;
         height: 270px;
         background-color: white;
-        left: 8%;
-        top: 15%;
+        left: 0;
+        right: 0;
+        top: 65;
+        bottom: 0;
+        position: fixed;
+        margin: auto;
         font-size: 22px;
     }
 
     .left{
         display: none;
         align-items: center;
-        left: -15%;
+        left: 0;
+        right: 0;
+        top: 133px;
+        bottom: 0;
+        position: fixed;
+        margin: auto;
     }
 
     .back{
-        left: -29%;
+        left: -49%;
+        top: 116px;
+        position: fixed;
         font-size: 22px;
+        margin: auto;
     }
 
     .fa-xmark {
         position: absolute;
         left: 290px;
+        top: 15px;
     }
 }
