@@ -196,6 +196,8 @@ a{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: -2%;
+        margin-right: -2%;
     }
     .flex{
         width: 260px;
@@ -223,8 +225,8 @@ a{
     }
 
     .single-task{
-        margin-left: -8%;
-        margin-right: -8%;
+        margin-left: -2%;
+        margin-right: -2%;
     }
 
     .page3{
@@ -237,28 +239,27 @@ a{
         background-color: white;
         left: 0;
         right: 0;
-        top: 65;
+        top: -60px;
         bottom: 0;
-        position: fixed;
+        /* position: fixed; */
         margin: auto;
         font-size: 22px;
     }
 
     .left{
         display: none;
-        align-items: center;
-        left: 0;
+        /* position: relative; */
+        left: -10%;
         right: 0;
-        top: 133px;
+        top: 16px;
         bottom: 0;
-        position: fixed;
         margin: auto;
     }
 
     .back{
-        left: -49%;
-        top: 116px;
-        position: fixed;
+        left: -26%;
+        top: 20px;
+        position: relative;
         font-size: 22px;
         margin: auto;
     }
